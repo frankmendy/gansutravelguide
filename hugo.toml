@@ -1,0 +1,35 @@
+baseURL = "https://gansutravelguide.com/"
+languageCode = "en-us"
+title = "Gansu Odyssey"
+theme = "blowfish"
+
+[params]
+  # 欧美风格偏好简洁，这里设置主题颜色
+  colorScheme = "blowfish" 
+  defaultAppearance = "light" # 默认亮色模式，适合旅游站
+  autoSwitchAppearance = true
+
+[menu]
+  [[menu.main]]
+    name = "Destinations"
+    url = "/tags/destinations"
+    weight = 10
+  [[menu.main]]
+    name = "Travel Tips"
+    url = "/tags/tips"
+    weight = 20
+  [[menu.main]]
+    name = "Food & Culture"
+    url = "/tags/food"
+    weight = 30
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 40
+
+[params.header]
+  layout = "basic" # 经典的左 Logo 右导航布局，符合习惯
+
+[params.footer]
+  showCopyright = true
+  showRSS = true
