@@ -33,3 +33,4 @@ theme = "blowfish"
 [params.footer]
   showCopyright = true
   showRSS = true
+   
