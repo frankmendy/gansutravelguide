@@ -4,9 +4,8 @@ title = "Gansu Odyssey"
 theme = "blowfish"
 
 [params]
-  # 欧美风格偏好简洁，这里设置主题颜色
-  colorScheme = "blowfish" 
-  defaultAppearance = "light" # 默认亮色模式，适合旅游站
+  colorScheme = "blowfish"
+  defaultAppearance = "light"
   autoSwitchAppearance = true
 
 [menu]
@@ -28,9 +27,8 @@ theme = "blowfish"
     weight = 40
 
 [params.header]
-  layout = "basic" # 经典的左 Logo 右导航布局，符合习惯
+  layout = "basic"
 
 [params.footer]
   showCopyright = true
   showRSS = true
-   
